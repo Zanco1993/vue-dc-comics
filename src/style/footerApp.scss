@@ -4,6 +4,7 @@
 
     .bg-color {
     background-color: $blue-primary-color;
+    position: relative;
     
     .footer-info {
         height: 100px;
@@ -12,7 +13,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-
+        z-index: 10;
+        
         .box {
             display: flex;
             align-items: center;
@@ -65,15 +67,49 @@
             }
 
             .box-image {
-                width: 450px;
+                width: 350px;
                 position: absolute;
                 right: 0;
-                bottom: -70%;
+                bottom: -50%;
 
                 img {
                     width: 100%;
                 }
             }
         }
-}
+    }
+
+    .footer-social {
+        height: 100px;
+        background-color: #2e2e2e;
+        
+        .container {
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sign-up p{
+                padding: 10px;
+                color: white;
+                border: 2px solid $blue-primary-color;
+            }
+
+            .follow-us {
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-size: 20px;
+                    color: $blue-primary-color;
+                }
+
+                img {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
 }

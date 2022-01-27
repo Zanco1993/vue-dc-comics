@@ -77,7 +77,21 @@
         </div>
 
         <div class="footer-social">
+            <div class="container">
+                <div class="sign-up">
+                    <p>SIGN-UP NOW!</p>
+                </div>
 
+                <div class="follow-us">
+                    <p>FOLLOW US</p>
+                    <img src="../assets/footer-facebook.png" alt="">
+                    <img src="../assets/footer-twitter.png" alt="">
+                    <img src="../assets/footer-youtube.png" alt="">
+                    <img src="../assets/footer-pinterest.png" alt="">
+                    <img src="../assets/footer-periscope.png" alt="">
+                </div>
+
+            </div>
         </div>
 
 
@@ -86,16 +100,10 @@
 </template>
 
 <script>
-// import FooterInfo from './components/FooterInfo.vue'
-// import FooterLink from './components/FooterLink.vue'
-// import FooterSocial from './components/FooterSocial.vue'
+
 
 export default {
-    // components: {
-    //     FooterInfo,
-    //     FooterLink,
-    //     FooterSocial
-    // }
+ 
 }
 </script>
 

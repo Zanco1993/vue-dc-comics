@@ -34,7 +34,6 @@ export default {
 
 header {
     height: 100px;
-    border: 1px solid black;
 
     .container {
         width: 1000px;
@@ -53,7 +52,6 @@ header {
         }
 
         nav {
-            height: 100%;
             line-height: 100px;
 
             ul {
@@ -63,14 +61,13 @@ header {
                 justify-content: center;
 
                 li {
-                    height: 100%;
                     margin-left: 10px;
                     font-size: small;
                     cursor: pointer;
 
                     &:hover {
                         color: $blue-primary-color;
-                        border-bottom: 4px solid $blue-primary-color;
+                        box-shadow: inset 0 -3px 0 $blue-primary-color;
                     }
                 }
                 
