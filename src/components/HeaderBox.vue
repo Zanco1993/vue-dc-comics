@@ -39,7 +39,6 @@ header {
     .container {
         width: 1000px;
         height: 100px;
-        border: 1px solid black;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;

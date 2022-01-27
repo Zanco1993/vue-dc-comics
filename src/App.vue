@@ -11,12 +11,14 @@ import HeaderBox from './components/HeaderBox.vue'
 import FooterBox from './components/FooterBox.vue'
 import Jumbotron from './components/Jumbotron.vue'
 
+
 export default {
   name: 'App',
   components: {
     HeaderBox,
     FooterBox,
     Jumbotron
+    
   }
 }
 </script>

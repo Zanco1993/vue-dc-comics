@@ -1,0 +1,31 @@
+ footer {
+    height: 500px;
+
+    .bg-color {
+    background-color: $blue-primary-color;
+    
+    .footer-info {
+        height: 100px;
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .box {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+            }
+
+            p {
+                font-size: 10px;
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+}
