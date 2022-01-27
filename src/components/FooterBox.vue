@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="bg-color">
+        <div class="container-info">
             <div class="footer-info">
                 <div class="box">
                     <img src="../assets/buy-comics-digital-comics.png" alt="">
@@ -77,9 +77,9 @@
         </div>
 
         <div class="footer-social">
-            <div class="container">
+            <div class="container-social">
                 <div class="sign-up">
-                    <p>SIGN-UP NOW!</p>
+                    <a href="#">SIGN-UP NOW!</a>
                 </div>
 
                 <div class="follow-us">

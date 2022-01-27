@@ -2,8 +2,9 @@
  footer {
     height: 500px;
 
-    .bg-color {
-    background-color: $blue-primary-color;
+    .container-info {
+        height: 100px;
+        background-color: $blue-primary-color;
     
     .footer-info {
         height: 100px;
@@ -60,6 +61,7 @@
                     li {
                         color: grey;
                         font-size: 10px;
+                        cursor: pointer;
                     }
                 }
             }
@@ -81,7 +83,7 @@
         height: 100px;
         background-color: #2e2e2e;
         
-        .container {
+        .container-social {
             width: 1000px;
             height: 100px;
             margin: 0 auto;
@@ -89,7 +91,8 @@
             justify-content: space-between;
             align-items: center;
 
-            .sign-up p{
+            .sign-up a{
+                text-decoration: none;
                 padding: 10px;
                 color: white;
                 border: 2px solid $blue-primary-color;
@@ -106,6 +109,7 @@
 
                 img {
                     margin-left: 15px;
+                    cursor: pointer;
                 }
             }
         }
