@@ -20,4 +20,5 @@ export default {
         background-size: cover;
     }
 
+
 </style>
