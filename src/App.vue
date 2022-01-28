@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box :linkNav="prova" />
+    <header-box :links="linkNav" />
     <jumbotron />
     <card-box />
     <footer-box />
@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      prova: [
+      linkNav: [
         "CHARACTERS",
         "COMICS",
         "MOVIES",
