@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <header-box/>
+    <header-box :nav="nav"/>
     <jumbotron/>
+    <card-box/>
     <footer-box/>
   </div>
 </template>
@@ -10,6 +11,7 @@
 import HeaderBox from './components/HeaderBox.vue'
 import FooterBox from './components/FooterBox.vue'
 import Jumbotron from './components/Jumbotron.vue'
+import CardBox from './components/CardBox.vue'
 
 
 export default {
@@ -17,8 +19,24 @@ export default {
   components: {
     HeaderBox,
     FooterBox,
-    Jumbotron
-    
+    Jumbotron,
+    CardBox
+  },
+  data() {
+    return {
+      nav: [
+        'CHARACTERS',
+        'COMICS',
+        'MOVIES',
+        'TV',
+        'GAMES',
+        'COLLECTIBLES',
+        'VIDEOS',
+        'FANS',
+        'NEWS',
+        'SHOP'
+      ]
+    }
   }
 }
 </script>
