@@ -30,7 +30,7 @@ header {
     height: 100px;
 
     .container {
-        width: 1000px;
+        width: 1200px;
         height: 100px;
         margin: 0 auto;
         display: flex;
