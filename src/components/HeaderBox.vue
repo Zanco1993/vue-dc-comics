@@ -58,6 +58,7 @@ header {
                     margin-left: 10px;
                     font-size: small;
                     cursor: pointer;
+                    transition: all 0.3s;
 
                     &:hover {
                         color: $blue-primary-color;
