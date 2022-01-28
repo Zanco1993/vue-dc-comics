@@ -7,7 +7,7 @@
 
             <nav>
                 <ul>
-                    <li v-for="(link, index) in nav" :key="index">{{ link }}</li>
+                    <li v-for="(link, index) in linkNav" :key="index">{{ link }}</li>
                     
                 </ul>
             </nav>
@@ -18,7 +18,7 @@
 <script>
 export default {
     props: {
-        nav: Array
+        linkNav: Array
     }
 }
 </script>

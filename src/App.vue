@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box :nav="nav"/>
+    <header-box :linkNav="prova"/>
     <jumbotron/>
     <card-box/>
     <footer-box/>
@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      nav: [
+      prova: [
         'CHARACTERS',
         'COMICS',
         'MOVIES',
