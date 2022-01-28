@@ -6,6 +6,7 @@
                     <img :src="card.thumb" alt="">
                 </div>
                 <p>{{ card.series.toUpperCase() }}</p>
+                <p>PRICE: {{ card.price }}</p>
 
             </div>
         </div>
