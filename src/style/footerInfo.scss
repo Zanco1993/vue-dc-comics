@@ -1,0 +1,31 @@
+@import "@/style/jumbotron.scss";
+@import "@/style/variables.scss";
+
+.container-info {
+    height: 100px;
+    background-color: $blue-primary-color;
+
+    .footer-info {
+        height: 100px;
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .box {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+            }
+
+            p {
+                font-size: 10px;
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}

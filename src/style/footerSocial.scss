@@ -1,0 +1,43 @@
+@import "@/style/jumbotron.scss";
+@import "@/style/variables.scss";
+
+.footer-social {
+    height: 100px;
+    background-color: #2e2e2e;
+
+    .container-social {
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .sign-up {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+            border: 2px solid $blue-primary-color;
+            transition: all 0.3s;
+
+            &:hover {
+                background-color: $blue-primary-color;
+            }
+        }
+
+        .follow-us {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 20px;
+                color: $blue-primary-color;
+            }
+
+            img {
+                margin-left: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}

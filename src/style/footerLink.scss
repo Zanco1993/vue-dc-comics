@@ -1,0 +1,47 @@
+@import "@/style/jumbotron.scss";
+@import "@/style/variables.scss";
+
+.container-jumbo {
+    background-image: $secondary-jumbo;
+    height: 300px;
+
+    .footer-link {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .box-link {
+            height: 100%;
+            padding-top: 20px;
+            padding-left: 20px;
+            display: flex;
+
+            ul {
+                list-style: none;
+                margin-right: 25px;
+
+                .mini-title {
+                    color: white;
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+                li {
+                    color: grey;
+                    font-size: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .box-image {
+            height: 300px;
+
+            img {
+                width: 450px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+}

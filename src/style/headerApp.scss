@@ -1,0 +1,50 @@
+@import '@/style/variables.scss';
+
+header {
+    height: 100px;
+
+    .container {
+        width: 1200px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content-logo {
+            width: 80px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        nav {
+            line-height: 100px;
+
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                li {
+                    margin-left: 10px;
+                    font-size: small;
+                    cursor: pointer;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: $blue-primary-color;
+                        box-shadow: inset 0 -3px 0 $blue-primary-color;
+                    }
+                }
+                
+            }
+        }
+
+    }
+
+
+
+}
