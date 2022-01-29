@@ -90,11 +90,16 @@
             justify-content: space-between;
             align-items: center;
 
-            .sign-up a{
+            .sign-up{
                 text-decoration: none;
                 padding: 10px;
                 color: white;
                 border: 2px solid $blue-primary-color;
+                transition: all 0.3s;
+
+                &:hover {
+                    background-color: $blue-primary-color;
+                }
             }
 
             .follow-us {

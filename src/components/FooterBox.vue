@@ -78,9 +78,9 @@
 
         <div class="footer-social">
             <div class="container-social">
-                <div class="sign-up">
-                    <a href="#">SIGN-UP NOW!</a>
-                </div>
+                <a class="sign-up" href="#">SIGN-UP NOW!</a>
+                
+                
 
                 <div class="follow-us">
                     <p>FOLLOW US</p>
